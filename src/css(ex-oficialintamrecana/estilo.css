@@ -1,0 +1,397 @@
+.cabecalho{
+    background-image: linear-gradient(to left, #3426E6, #3E95FF, #1A998D, #52E600, #019910);
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agrupamento-inicio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo{
+    height: 100px;
+    width: 120px;
+    border: 2px solid;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+
+.link{
+    font-size: 16px;
+    text-decoration: none;
+    color: #05053f;
+    border: solid 1px #05053f;
+    border-radius: 10px;
+    padding: 2px 3px 2px 3px;
+}
+
+.link:hover{
+    transform: scale(1.05);
+    background-color: rgb(128, 187, 255);
+}
+
+.logo-titulo{
+    font-size: 16px;
+    text-decoration: overline dotted #05053f;
+}
+
+.imagem-icone{
+    height: 30px;
+    width: 30px;
+}
+
+.imagem-icone:hover{
+    transform: scale(1.05);
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:240px;
+    height:32px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:28px;
+    width:161px;
+}
+
+#txtBusca:hover{
+    background-color: #52E600;
+}
+
+#btnBusca{
+    border:none;
+    float:left;
+    height:30px;
+    border-radius:0 7px 7px 0;
+    width:48px;
+    font-weight:bold;
+    background:#5F9EA0;
+    
+}
+
+.imagem-lupa{
+    width: 27px;
+    height: 27px;
+    justify-content: start;
+    padding: 4px 2px 4px 2px;
+    opacity: 0.4;
+}
+
+body{
+    background-color: #a3260d;
+}
+
+main{
+    margin: 0px 200px 0px 200px;
+    background-color: #8b230f;
+}
+
+.titulo-materia{
+    font-size: 30px;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #7c200d;
+    color: #ebdada;
+}
+
+.sessao-materia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacoes-materias{
+    font-size: 18px;
+    padding: 10px;
+    text-align: justify;
+    color: #ebdada;
+}
+
+.conjunto-imagens{
+    padding: 20px;
+}
+
+.imagem-materia{
+    width: 600px;
+    height: 300px;
+    border: solid 2px #410d03;
+}
+
+.imagem-materia:hover{
+    transform: scale(1.05);
+}
+
+.legenda{
+    font-size: 19px;
+    padding: 5px 0px 0px 0px;
+    color: #ebdada;
+}
+
+footer{
+    margin: 0px 200px 0px 200px;
+    background-color: #701b0a;
+}
+
+.agrupamento-rodape{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informacao-rodape{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #ebdada;
+}
+
+.link-rodape:hover{
+    color: #ebdada;
+}
+
+@media (min-width: 1200px){
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titulo{
+        margin: 0px 50px 0px 50px;
+    }
+}
+
+@media (min-width: 992px){
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titulo-materia{
+        font-size: 25px;
+        text-align: justify;
+    }
+    
+    .imagem-materia{
+        width: 500px;
+        height: 250px; 
+    }
+}
+
+@media (min-width:800px) and (max-width: 991px){
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        padding: 0% 3%;
+        margin: auto;
+    }
+
+    footer{
+        padding: 3%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 799px){
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .titulo-materia{
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .imagem-materia{
+        width: 550px;
+        height: 275px;
+    }
+
+    footer{
+        margin: auto;
+        padding: 0% 3%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 649px){
+    .cabecalho{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .titulo-materia{
+        font-size: 25px;
+        text-align: start;
+    }
+
+    .imagem-materia{
+        width: 450px;
+        height: 250px;
+    }
+
+    footer{
+        margin: auto;
+        padding: 0% 3%;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 499px){
+    .cabecalho{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .titulo-materia{
+        font-size: 25px;
+        text-align: start;
+    }
+
+    .informacoes-materias{
+        font-size: 20px;
+    }
+
+    .imagem-materia{
+        width: 380px;
+        height: 190px;
+    }
+
+    footer{
+        margin: auto;
+        padding: 0% 3%;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 420px){
+    .cabecalho{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titulo-materia{
+        font-size: 23px;
+        text-align: start;
+    }
+
+    main{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .informacoes-materias{
+        font-size: 20px;
+    }
+
+    .imagem-materia{
+        width: 350px;
+        height: 180px;
+    }
+
+    footer{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .informacao-rodape{
+        font-size: 17px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 389px){
+    .cabecalho{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .agrupamento-inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .titulo-materia{
+        font-size: 23px;
+        text-align: start;
+    }
+
+    .imagem-materia{
+        width: 250px;
+        height: 120px;
+    }
+
+    footer{
+        margin: auto;
+        padding: 0% 3%;
+    }
+
+    .informacao-rodape{
+        font-size: 14px;
+        text-align: justify;
+    }
+}

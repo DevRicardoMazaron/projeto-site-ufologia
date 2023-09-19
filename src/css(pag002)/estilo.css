@@ -1,0 +1,40 @@
+body{
+    background-image: url(../imagenspag002/tela-de-fundo-teste-seis.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.titulo{
+    padding: 20px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(156, 1, 1);
+}
+
+.objetivos-et{
+    padding: 30px 30px 30px 30px;
+    background-image: url(../imagenspag002/adesivo-top-secret.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 80px 50px 80px;
+}
+
+.raca{
+    font-size: 30px;
+}
+
+.imagem-et{
+    width: 500px;
+    height: 400px;
+    border: solid 2px;
+}
+
+.informacoes{
+    font-size: 20px;
+    border: solid 1px;
+    margin-left: 500px;
+}
